@@ -9,11 +9,11 @@ def main_menu():
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': "https://ssl-static.libsyn.com/p/assets/3/7/7/5/37757d449f81eb7c/R-Radio_IDENTITY-SQUARE-black_BG-01.png"},
+            'thumbnail': "https://github.com/leopheard/whowhatwhy/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30000),
             'path': plugin.url_for('episodes'),
-            'thumbnail': "https://ssl-static.libsyn.com/p/assets/3/7/7/5/37757d449f81eb7c/R-Radio_IDENTITY-SQUARE-black_BG-01.png"},
+            'thumbnail': "https://github.com/leopheard/whowhatwhy/blob/master/resources/media/icon.jpg?raw=true"},
     ]
     return items
 
